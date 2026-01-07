@@ -94,4 +94,98 @@ nav .menu li a{
     max-width: 584px;
     vertical-align: middle;
 }
+/* section 2 */
+#about{
+    padding-top: 130px;
+}
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
 
+}
+/* share style  */
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+   
+}
+.section-heading h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    max-width: 782px;
+    padding: 0 23px;
+}
+.info p{
+    color: #757575;
+}
+.info h4{
+    color: #474747;
+}
+/* section skil */
+#skill{
+  padding-top: 130px;
+}
+.skil-heading{
+    text-align: center;
+}
+#skill .skil-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+
+}
+.skil-heading h2{
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+.skil-heading p{
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+.skil-box{
+    display: flex;
+    gap: 24px;
+}
+.box-card{
+    padding: 30px;
+    max-width: 247px;
+   border-radius: 5px;
+   box-shadow: 0px 6px 50px 0px #00000011;
+}
+.box-card img{
+    margin-bottom: 30px;
+    max-width: 44px;
+}
+.box-card h3{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.box-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
